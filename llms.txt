@@ -1,0 +1,51 @@
+# Geotechnik — Hildesheim
+
+> Geotechnical engineering services in Hildesheim, Deutschland.
+
+## Services
+- [Anker](https://hildesheim.geotechnik.sbs/anker/)
+- [Atterberg Grenzen](https://hildesheim.geotechnik.sbs/atterberg-grenzen/)
+- [Aushub](https://hildesheim.geotechnik.sbs/aushub/)
+- [Aushub Monitoring](https://hildesheim.geotechnik.sbs/aushub-monitoring/)
+- [Bodenplatten](https://hildesheim.geotechnik.sbs/bodenplatten/)
+- [Bodenverbesserung](https://hildesheim.geotechnik.sbs/bodenverbesserung/)
+- [Boschungsstabilitat](https://hildesheim.geotechnik.sbs/boschungsstabilitat/)
+- [Cbr Strasse](https://hildesheim.geotechnik.sbs/cbr-strasse/)
+- [Cpt Versuch](https://hildesheim.geotechnik.sbs/cpt-versuch/)
+- [Erdbebenisolierung](https://hildesheim.geotechnik.sbs/erdbebenisolierung/)
+- [Flexibler Belag](https://hildesheim.geotechnik.sbs/flexibler-belag/)
+- [Fundamente](https://hildesheim.geotechnik.sbs/fundamente/)
+- [Grundungen](https://hildesheim.geotechnik.sbs/grundungen/)
+- [Hange](https://hildesheim.geotechnik.sbs/hange/)
+- [In Situ Durchlassigkeit](https://hildesheim.geotechnik.sbs/in-situ-durchlassigkeit/)
+- [Injektionen](https://hildesheim.geotechnik.sbs/injektionen/)
+- [Korngrossenanalyse](https://hildesheim.geotechnik.sbs/korngrossenanalyse/)
+- [Labor](https://hildesheim.geotechnik.sbs/labor/)
+- [Labor In Situ](https://hildesheim.geotechnik.sbs/labor-in-situ/)
+- [Masw](https://hildesheim.geotechnik.sbs/masw/)
+- [Pfahle](https://hildesheim.geotechnik.sbs/pfahle/)
+- [Proctor Versuche](https://hildesheim.geotechnik.sbs/proctor-versuche/)
+- [Ruttelverdichtung](https://hildesheim.geotechnik.sbs/ruttelverdichtung/)
+- [Sandkegel Dichte](https://hildesheim.geotechnik.sbs/sandkegel-dichte/)
+- [Schottersaulen](https://hildesheim.geotechnik.sbs/schottersaulen/)
+- [Schurfgruben](https://hildesheim.geotechnik.sbs/schurfgruben/)
+- [Seismik](https://hildesheim.geotechnik.sbs/seismik/)
+- [Seismische Mikrozonierung](https://hildesheim.geotechnik.sbs/seismische-mikrozonierung/)
+- [Seismische Refraktion](https://hildesheim.geotechnik.sbs/seismische-refraktion/)
+- [Spt Bohrung](https://hildesheim.geotechnik.sbs/spt-bohrung/)
+- [Starrer Belag](https://hildesheim.geotechnik.sbs/starrer-belag/)
+- [Strassenbau](https://hildesheim.geotechnik.sbs/strassenbau/)
+- [Stutzmauern](https://hildesheim.geotechnik.sbs/stutzmauern/)
+- [Tiefe Aushube](https://hildesheim.geotechnik.sbs/tiefe-aushube/)
+- [Triaxialversuch](https://hildesheim.geotechnik.sbs/triaxialversuch/)
+- [Untersuchung](https://hildesheim.geotechnik.sbs/untersuchung/)
+- [Verflussigung](https://hildesheim.geotechnik.sbs/verflussigung/)
+- [Weichbodentunnel](https://hildesheim.geotechnik.sbs/weichbodentunnel/)
+- [Widerstand](https://hildesheim.geotechnik.sbs/widerstand/)
+
+## Contact
+- Website: https://hildesheim.geotechnik.sbs/
+
+## About
+This site provides geotechnical engineering services in Hildesheim, Deutschland.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
