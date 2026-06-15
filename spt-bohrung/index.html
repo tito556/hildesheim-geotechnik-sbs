@@ -1,246 +1,156 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3</title>
-<meta name="description" content="SPT-Sondierung in Hildesheim zur Bestimmung der Lagerungsdichte und Tragfähigkeit in Lockergesteinen. Auswertung nach DIN EN ISO 22476-3 mit regionaler Erfahrung in den quartären Ablagerungen des">
-<link rel="canonical" href="https://hildesheim.geotechnik.sbs/spt-bohrung/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3">
-<meta property="og:description" content="SPT-Sondierung in Hildesheim zur Bestimmung der Lagerungsdichte und Tragfähigkeit in Lockergesteinen. Auswertung nach DIN EN ISO 22476-3 mit regionaler Erfahrung in den quartären Ablagerungen des">
-<meta property="og:url" content="https://hildesheim.geotechnik.sbs/spt-bohrung/">
-<meta property="og:site_name" content="Geotechnik">
-<meta property="og:image" content="https://hildesheim.geotechnik.sbs/img/ensayo-spt-3.webp">
-<meta property="og:locale" content="de_DE">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3">
-<meta name="twitter:description" content="SPT-Sondierung in Hildesheim zur Bestimmung der Lagerungsdichte und Tragfähigkeit in Lockergesteinen. Auswertung nach DIN EN ISO 22476-3 mit regionaler Erfahrung in den quartären Ablagerungen des">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Start", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3"}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3", "description": "SPT-Sondierung in Hildesheim zur Bestimmung der Lagerungsdichte und Tragfähigkeit in Lockergesteinen. Auswertung nach DIN EN ISO 22476-3 mit regionaler Erfahrung in den quartären Ablagerungen des", "areaServed": {"@type": "City", "name": "Hildesheim"}, "provider": {"@type": "LocalBusiness", "name": "Geotechnik", "email": "kontakt@geotechnik.sbs", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Hildesheim", "addressCountry": "DE"}}, "url": "https://hildesheim.geotechnik.sbs/spt-bohrung"}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Welche Bodenschichten in Hildesheim können mit dem SPT untersucht werden?", "acceptedAnswer": {"@type": "Answer", "text": "Der SPT ist in Hildesheim für alle quartären Lockergesteine geeignet, insbesondere für die sandig-kiesigen Terrassenablagerungen der Innerste, die Lösslehme am Hangfuß und die feinkörnigen Auesedimente. In bindigen Böden mit sehr weicher Konsistenz (cu < 25 kPa) werden die Schlagzahlen allerdings zu gering für eine sinnvolle Differenzierung. Bei Tiefen über 20 Meter oder beim Auftreffen auf den mesozoischen Festgesteinsuntergrund wird die Sondierung abgebrochen und durch Kernbohrverfahren ergänzt."}}, {"@type": "Question", "name": "Wie wird der SPT-Wert N30 in der Bemessung nach Eurocode 7 verwendet?", "acceptedAnswer": {"@type": "Answer", "text": "Der korrigierte N60-Wert (nach Energie- und Überlagerungsdruckkorrektur) geht in empirische Korrelationen ein, die in DIN EN 1997-2 Anhang F dokumentiert sind. Daraus lassen sich der Spitzendruck einer CPT-Sonde, der Reibungswinkel für rollige Böden und die undränierte Scherfestigkeit für bindige Böden ableiten. In Hildesheim nutzen wir diese Korrelationen standardmäßig für die Vorbemessung von Flachgründungen auf den Terrassenschottern, wobei die Ergebnisse immer durch mindestens eine direkte Laboranalyse validiert werden."}}, {"@type": "Question", "name": "Was kostet ein SPT in Hildesheim inklusive Auswertung?", "acceptedAnswer": {"@type": "Answer", "text": "Eine SPT-gestützte Baugrunderkundung in Hildesheim liegt je nach Tiefe und Anzahl der Sondierpunkte typischerweise zwischen €430 und €710 pro Aufschlusspunkt, inklusive der gestörten Probenahme, der Energie-Kalibrierung, der Auswertung nach DIN EN ISO 22476-3 und der Einbindung der Ergebnisse in den Geotechnischen Bericht. Mob- und Demob-Kosten sind bei mehreren Sondierungen im Stadtgebiet anteilig gering."}}, {"@type": "Question", "name": "Kann der SPT in Hildesheim für die Abschätzung von Setzungen verwendet werden?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, über die Korrelation von N30 mit dem Steifemodul Es (nach DIN 1054 oder international nach Burland & Burbidge, 1985) lassen sich Setzungsberechnungen für die kompressiblen Aueböden Hildesheims durchführen. Allerdings ist die Streuung dieser Korrelationen in bindigen Böden höher als in Sanden. Für setzungsempfindliche Bauwerke empfehlen wir daher, die SPT-Daten durch Drucksondierungen mit dem <a href=\"/cpt-versuch/\">CPT-Versuch</a> zu ergänzen, der ein kontinuierliches Profil des Spitzendrucks und der Porenwasserdruckentwicklung liefert."}}]}</script>
-<style>
-:root {
-    --primary: #171717;
-    --accent: #404040;
-    --dark: #0A0A0A;
-    --bg: #FAFAF9;
-    --text: #171717;
-    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
-    --font-b: 'Lora', 'Segoe UI', sans-serif;
+<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3</title><meta name="description" content="SPT-Bohrungen in Hildesheim für fundierte Baugrundentscheidungen. Unser Labor ermittelt Lagerungsdichte und"><link rel="canonical" href="https://hildesheim.geotechnik.sbs/spt-bohrung/"><meta property="og:type" content="website"><meta property="og:title" content="SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3"><meta property="og:description" content="SPT-Bohrungen in Hildesheim für fundierte Baugrundentscheidungen. Unser Labor ermittelt Lagerungsdichte und"><meta property="og:url" content="https://hildesheim.geotechnik.sbs/spt-bohrung/"><meta property="og:site_name" content="Geotechnik"><meta property="og:image" content="https://hildesheim.geotechnik.sbs/img/sondaje-spt-5.webp"><meta property="og:locale" content="de_DE"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3"><meta name="twitter:description" content="SPT-Bohrungen in Hildesheim für fundierte Baugrundentscheidungen. Unser Labor ermittelt Lagerungsdichte und Tragfähigkeit direkt vor Ort. Jetzt Sondiertermin anfragen.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Start", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "name": "SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3", "description": "SPT-Bohrungen in Hildesheim für fundierte Baugrundentscheidungen. Unser Labor ermittelt Lagerungsdichte und Tragfähigkeit direkt vor Ort. Jetzt Sondiertermin anfragen.", "areaServed": {"@type": "City", "name": "Hildesheim"}, "provider": {"@type": "LocalBusiness", "name": "Geotechnik", "email": "kontakt@geotechnik.sbs", "telephone": "", "address": {"@type": "PostalAddress", "addressLocality": "Hildesheim", "addressCountry": "DE"}}, "url": "https://hildesheim.geotechnik.sbs/spt-bohrung/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Was kostet ein SPT in Hildesheim?", "acceptedAnswer": {"@type": "Answer", "text": "Ein einzelner SPT nach Norm liegt in Hildesheim preislich zwischen €530 und €680 netto, abhängig von Bohrtiefe, Gestängetyp und Rüstaufwand. Bei mehreren Sondierpunkten auf einem Grundstück reduziert sich der Einheitspreis durch die einmalige Mobilisierung des Bohrgeräts."}}, {"@type": "Question", "name": "Ab welcher Bohrtiefe ist der SPT in Hildesheim sinnvoll?", "acceptedAnswer": {"@type": "Answer", "text": "Der SPT eignet sich ab etwa 1,5 m unter GOK und wird meist bis in 8–12 m Tiefe gefahren. In Hildesheim orientieren wir die Endtiefe an der Unterkante der quartären Lockersedimente – sobald der festere Kreidemergel ansteht, wechseln wir auf Kernbohrverfahren."}}, {"@type": "Question", "name": "Ersetzt der SPT ein komplettes Baugrundgutachten?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Der SPT liefert die mechanischen Kennwerte des Bodens, aber erst die Zusammenschau mit Schichtenverzeichnis, Laborwerten und geotechnischem Bericht ergibt das vollständige Gutachten nach DIN 4020. Unser Labor stellt diese Leistungen aus einer Hand bereit."}}, {"@type": "Question", "name": "Ist der SPT in Hildesheim auch bei beengten Grundstücken durchführbar?", "acceptedAnswer": {"@type": "Answer", "text": "Ja. Wir setzen in der Hildesheimer Innenstadt kompakte Raupengeräte mit geringer Bodenpressung ein, die durch enge Tordurchfahrten passen. Der SPT-Hammer arbeitet dabei mit einem kurzen Mast, sodass wir auch unter niedrigen Vordächern oder in Hinterhöfen normgerecht rammen können."}}]}</script>
+<style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
+.container { padding: 1rem; }
 }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .home {
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
+}
+summary::-webkit-details-marker { display: none; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+.sidebar .cat-toggle {
+background: none; border: 0; color: inherit; cursor: pointer;
+padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.cta .whatsapp-btn:hover { background: #1eb853; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
 a { color: var(--primary); text-decoration: none; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-
+.cta .contacto-line a { color: white; text-decoration: underline; }
+.header-contact a:hover { color: white; }
 .content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
-.sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+:root {
+--primary: #171717;
+--accent: #404040;
+--dark: #0A0A0A;
+--bg: #FAFAF9;
+--text: #171717;
+--font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+--font-b: 'Lora', 'Segoe UI', sans-serif;
 }
 /* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
 .sidebar { padding: .5rem 0; }
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+.sidebar .cat-sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+.servicio:hover { border-color: var(--primary); }
+main section { margin-bottom: 1.5rem; }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+summary:hover { background: rgba(0,0,0,0.02); }
+footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
+.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
+.sidebar .cat-row {
+display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
+}
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+.sidebar .cat-name:hover { color: #c9a961; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+.sidebar {
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
+}
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+footer a { color: rgba(255,255,255,0.85); }
+.sidebar .cat-sub {
+background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+main p { margin-bottom: 1rem; color: #334155; }
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+details[open] summary::before { content: '− '; }
+tr:nth-child(even) { background: #f8fafc; }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
 /* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
 .sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
-.sidebar .cat-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-}
-.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
-.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
-.sidebar .cat-name:hover { color: #c9a961; }
-.sidebar .cat-toggle {
-    background: none; border: 0; color: inherit; cursor: pointer;
-    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
-}
-.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
-.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
-.sidebar .cat-sub {
-    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
-}
-.sidebar .cat-sub[hidden] { display: none; }
-.sidebar .cat-sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
-}
-.sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.header-contact a:hover { color: white; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-main section { margin-bottom: 1.5rem; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-main p { margin-bottom: 1rem; color: #334155; }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-tr:nth-child(even) { background: #f8fafc; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-.servicio:hover { border-color: var(--primary); }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-summary::-webkit-details-marker { display: none; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-details[open] summary::before { content: '− '; }
-summary:hover { background: rgba(0,0,0,0.02); }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-
 .cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-.cta .whatsapp-btn:hover { background: #1eb853; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
 .cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-
-footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-footer a { color: rgba(255,255,255,0.85); }
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-    .content-area { flex-direction: column; }
-    .header-top { flex-direction: column; text-align: center; }
-    main { padding: 1.5rem; }
-    .container { padding: 1rem; }
-}
-</style>
-<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
-<body>
-
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;align-items:center;gap:10px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><polygon points="32,4 60,24 50,58 14,58 4,24" fill="#171717"/></svg><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Hildesheim</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Hildesheim, Germany</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:kontakt@geotechnik.sbs">kontakt@geotechnik.sbs</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Start</a></li><li>›</li><li>Erkundung</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Standard Penetration Test (SPT) in Hildesheim – Baugrundbewe…</li></ol></nav>
-        <h1>Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Start</a><div class="cat-item" data-cat="untersuchung"><div class="cat-row"><a data-interlink="1" href="/untersuchung/" class="cat-name">Erkundung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Erkundung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/cpt-versuch/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="labor-in-situ"><div class="cat-row"><a data-interlink="1" href="/labor-in-situ/" class="cat-name">In-Situ-Prüfungen</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ-Prüfungen"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/sandkegel-dichte/">Felddichtebestimmung (Sandkegelverfahren)</a></div></div><div class="cat-item" data-cat="labor"><div class="cat-row"><a data-interlink="1" href="/labor/" class="cat-name">Labor</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Labor"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/atterberg-grenzen/">Atterberg-Grenzen</a><a data-interlink="1" href="/korngrossenanalyse/">Korngrößenanalyse (Siebung + Hydrometer)</a></div></div><div class="cat-item" data-cat="grundungen"><div class="cat-row"><a data-interlink="1" href="/grundungen/" class="cat-name">Fundamente</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundamente"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/pfahle/">Pfahlgründungsbemessung</a></div></div><div class="cat-item" data-cat="hange"><div class="cat-row"><a data-interlink="1" href="/hange/" class="cat-name">Hänge & Wände</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Hänge & Wände"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/anker/">Aktive/passive Verankerungsbemessung</a><a data-interlink="1" href="/boschungsstabilitat/">Böschungsstabilitätsanalyse</a><a data-interlink="1" href="/stutzmauern/">Stützwandbemessung</a></div></div><div class="cat-item" data-cat="bodenverbesserung"><div class="cat-row"><a data-interlink="1" href="/bodenverbesserung/" class="cat-name">Bodenverbesserung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Bodenverbesserung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/ruttelverdichtung/">Bemessung der Rütteldruckverdichtung</a><a data-interlink="1" href="/schottersaulen/">Bemessung von Schottersäulen (Stone Columns)</a></div></div><div class="cat-item" data-cat="seismik"><div class="cat-row"><a data-interlink="1" href="/seismik/" class="cat-name">Seismik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/verflussigung/">Bodenverflüssigungsanalyse</a><a data-interlink="1" href="/erdbebenisolierung/">Erdbebenisolationsbemessung</a><a data-interlink="1" href="/seismische-mikrozonierung/">Seismische Mikrozonierung</a></div></div><div class="cat-item" data-cat="strassenbau"><div class="cat-row"><a data-interlink="1" href="/strassenbau/" class="cat-name">Straßenbaugeotechnik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Straßenbaugeotechnik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/flexibler-belag/">Bemessung flexibler Fahrbahnen</a><a data-interlink="1" href="/starrer-belag/">Bemessung starrer Fahrbahnen</a><a data-interlink="1" href="/cbr-strasse/">CBR-Studie für Straßenentwurf</a></div></div><div class="cat-item" data-cat="aushub"><div class="cat-row"><a data-interlink="1" href="/aushub/" class="cat-name">Untertagebau</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Untertagebau"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/weichbodentunnel/">Geotechnische Analyse für Tunnel in weichem Boden</a><a data-interlink="1" href="/aushub-monitoring/">Geotechnische Baugrubenüberwachung</a><a data-interlink="1" href="/tiefe-aushube/">Geotechnische Bemessung tiefer Baugruben</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>In Hildesheim, wo sich die quartären Lockersedimente der Innerste mit Lössüberdeckungen und feinkörnigen Aueböden abwechseln, erfordert die Baugrunderkundung ein Verfahren, das selbst in stark wechselhaften Horizonten verlässliche Kennwerte liefert. Der Standard Penetration Test (SPT) hat sich hier über Jahrzehnte als robustes Werkzeug etabliert, weil er nicht nur die Schlagzahl N30 als Indikator für die Lagerungsdichte erfasst, sondern beim Rammen auch gestörte Proben aus definierten Tiefen gewinnt. Gerade im Stadtgebiet von Hildesheim, wo der Grundwasserspiegel in den Flussniederungen oft nur wenige Meter unter Gelände ansteht und bindige Zwischenschichten den Rammwiderstand sprunghaft verändern können, liefert die Kombination aus dynamischer Sondierung und Bodenansprache nach DIN EN ISO 22476-3 die notwendige Datengrundlage für die Planung von <a data-interlink="1" href="/fundamente/">Fundamenten</a> und <a data-interlink="1" href="/bodenplatten/">Bodenplatten</a>. Das Verfahren ist in der Region fest etabliert, weil es Korrelationen zur Kohäsion und zum Reibungswinkel von Terrassenschottern und Beckenschluffen erlaubt, ohne dass aufwändige Laborversuche die Erkundung verzögern.</p></section>
-
-            <blockquote style="border-left:4px solid #171717;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Die Schlagzahl N30 aus dem SPT ist in Hildesheim der direkteste Indikator für die Tragfähigkeit der quartären Beckensedimente jenseits von Laborparametern.</blockquote>
-
-            
-
-            <section>
-                <h2>Leistungsmerkmale in Hildesheim</h2>
-                <div>Die quartäre Geologie des Hildesheimer Raums ist geprägt durch bis zu 15 Meter mächtige Auensedimente und Lösslehme, die auf Kalk- und Tonsteinen des Mesozoikums ruhen. Die SPT-Sondierung reagiert auf diese Wechsellagerung mit einem charakteristischen Schlagzahlprofil: Während die sandig-kiesigen Terrassenablagerungen der Innerste meist N30-Werte zwischen 20 und 40 aufweisen, fallen die Werte in den weichen tonigen Schluffen der Aue oft auf unter 5 ab. Diese Differenzierung ist entscheidend, weil sie die Tiefenlage tragfähiger Schichten für Pfahlgründungen oder elastisch gebettete Bodenplatten identifiziert. In Kombination mit der <a href="/korngrossenanalyse/">Korngrößenanalyse</a> lassen sich aus dem SPT zudem Rückschlüsse auf die Durchlässigkeit ziehen, was für die Dimensionierung von Drainagen in den grundwassernahen Baugebieten Hildesheims unerlässlich ist. Das Verfahren arbeitet mit einem standardisierten 63,5-kg-Fallhammer und einem 50-mm-Außengestänge, wobei die Schlagzahlen für drei 15-cm-Penetrationsintervalle protokolliert und der N30-Wert aus den letzten 30 cm gebildet wird.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/ensayo-spt-3.webp" alt="Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Standard Penetration Test (SPT) in Hildesheim – Baugrundbewertung nach DIN EN ISO 22476-3</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #171717;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#171717;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typischer Wert</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Normative Grundlage</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">DIN EN ISO 22476-3:2005-06</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Rammgewicht / Fallhöhe</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">63,5 kg / 76 cm (Freifall)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Gestängedurchmesser</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">50 mm (AW-Stange)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Probennehmer</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Standard-Spaltlöffel (Ø 35 mm innen)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Protokollierte Intervalle</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">3 × 15 cm; N30 aus 2. + 3. Intervall</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typische Tiefen in Hildesheim</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">6–20 m je nach Gründungsanforderung</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Korrekturfaktoren</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Energie (ER), Gestängelänge, Bohrlochdurchmesser, Überlagerungsdruck</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Korrelationen</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Lagerungsdichte DIN 1054, Reibungswinkel (Terzaghi & Peck, 1948), undrained shear strength (Stroud, 1974)</td></tr></tbody></table></div>
-
-            <div style="margin:2rem 0"><h2>Demonstration video</h2><div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px"><iframe src="https://www.youtube.com/embed/ck9BeqtudxM?rel=0" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none" loading="lazy" allowfullscreen></iframe></div></div>
-
-            <section>
-                <h2>Kritische Bodenfaktoren in Hildesheim</h2>
-                <p>Die DIN 4020 verlangt für Baugrundgutachten in geologisch heterogenen Gebieten wie dem Innerste-Becken direkte Aufschlüsse, die eine Kombination von Tragfähigkeits- und Verformungskennwerten erlauben. Wird in Hildesheim auf eine SPT-gestützte Erkundung verzichtet, riskieren Planer, die Tiefenlage der pleistozänen Terrassenkiese mit ausreichender Mantelreibung für <a data-interlink="1" href="/pfahle/">Pfähle</a> zu unterschätzen oder Setzungen in den kompressiblen Auelehmen fehlerhaft zu prognostizieren. Besonders kritisch ist dies in den Baugebieten westlich der Innerste, wo organische Weichschichten eingelagert sein können und eine Unterschätzung des Setzungspotenzials zu Schäden an gründungssteifen Bauwerken führt. Der SPT liefert zudem nach dem Verfahren von Youd & Idriss (2001) die Rohdaten für eine erste Abschätzung der Verflüssigungsgefahr, die in Hildesheim zwar gering, aber bei wassergesättigten Feinsanden unter dynamischer Belastung nicht völlig auszuschließen ist.</p>
-            </section>
-
-            
-    <section class="block mid-cta" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:kontakt@geotechnik.sbs" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-Mail: kontakt@geotechnik.sbs</a></div>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Anwendbare Normen:</strong> DIN EN ISO 22476-3:2005-06 – Geotechnische Erkundung und Untersuchung; Felduntersuchungen; Teil 3: Standard Penetration Test, DIN 4020:2010-12 – Geotechnische Untersuchungen für bautechnische Zwecke, DIN EN 1997-2 (Eurocode 7) – Entwurf, Berechnung und Bemessung in der Geotechnik; Teil 2: Erkundung und Untersuchung des Baugrunds, DIN 1054:2010-12 – Baugrund – Sicherheitsnachweise im Erd- und Grundbau, DGGT-Empfehlung Nr. 5 – Anwendung des Standard Penetration Tests im Baugrund
-            </div>
-
-            <section>
-                <h2>Unsere Leistungen</h2>
-                <p>Unser Leistungsumfang für SPT-Sondierungen in Hildesheim deckt sämtliche Anforderungen von der Feldkampagne bis zur numerischen Auswertung ab und ist auf die lokalen Baugrundverhältnisse abgestimmt:</p>
-                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#171717;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#171717}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#171717;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>SPT-Feldkampagne mit Rammkernbohrung</h3><p>Durchführung der SPT-Sondierungen in Hildesheim mit hydraulischem oder seilgeschlagenem Freifallhammer (ER-Messung nach ASTM D4633 inklusive). Kombinierbar mit Rammkernbohrungen in den anstehenden Festgesteinen des Mesozoikums zur Erkundung des Übergangs Lockergestein/Fels.</p></div><div class="servicio"><h3>Korrelation und geotechnischer Bericht</h3><p>Statistische Auswertung der N30-Schlagzahlen mit Korrektur nach Überlagerungsdruck und Energie. Ableitung von Reibungswinkel, Kohäsion und Steifemodul für die Bemessung nach Eurocode 7. Inklusive stratigraphischer Einordnung der gewonnenen Proben in das Quartärprofil des Innerste-Beckens.</p></div></div>
-            </section>
-
-            <section>
-                <h2>Häufig gestellte Fragen</h2>
-                <details><summary>Welche Bodenschichten in Hildesheim können mit dem SPT untersucht werden?</summary><p>Der SPT ist in Hildesheim für alle quartären Lockergesteine geeignet, insbesondere für die sandig-kiesigen Terrassenablagerungen der Innerste, die Lösslehme am Hangfuß und die feinkörnigen Auesedimente. In bindigen Böden mit sehr weicher Konsistenz (cu < 25 kPa) werden die Schlagzahlen allerdings zu gering für eine sinnvolle Differenzierung. Bei Tiefen über 20 Meter oder beim Auftreffen auf den mesozoischen Festgesteinsuntergrund wird die Sondierung abgebrochen und durch Kernbohrverfahren ergänzt.</p></details><details><summary>Wie wird der SPT-Wert N30 in der Bemessung nach Eurocode 7 verwendet?</summary><p>Der korrigierte N60-Wert (nach Energie- und Überlagerungsdruckkorrektur) geht in empirische Korrelationen ein, die in DIN EN 1997-2 Anhang F dokumentiert sind. Daraus lassen sich der Spitzendruck einer CPT-Sonde, der Reibungswinkel für rollige Böden und die undränierte Scherfestigkeit für bindige Böden ableiten. In Hildesheim nutzen wir diese Korrelationen standardmäßig für die Vorbemessung von Flachgründungen auf den Terrassenschottern, wobei die Ergebnisse immer durch mindestens eine direkte Laboranalyse validiert werden.</p></details><details><summary>Was kostet ein SPT in Hildesheim inklusive Auswertung?</summary><p>Eine SPT-gestützte Baugrunderkundung in Hildesheim liegt je nach Tiefe und Anzahl der Sondierpunkte typischerweise zwischen €430 und €710 pro Aufschlusspunkt, inklusive der gestörten Probenahme, der Energie-Kalibrierung, der Auswertung nach DIN EN ISO 22476-3 und der Einbindung der Ergebnisse in den Geotechnischen Bericht. Mob- und Demob-Kosten sind bei mehreren Sondierungen im Stadtgebiet anteilig gering.</p></details><details><summary>Kann der SPT in Hildesheim für die Abschätzung von Setzungen verwendet werden?</summary><p>Ja, über die Korrelation von N30 mit dem Steifemodul Es (nach DIN 1054 oder international nach Burland & Burbidge, 1985) lassen sich Setzungsberechnungen für die kompressiblen Aueböden Hildesheims durchführen. Allerdings ist die Streuung dieser Korrelationen in bindigen Böden höher als in Sanden. Für setzungsempfindliche Bauwerke empfehlen wir daher, die SPT-Daten durch Drucksondierungen mit dem <a data-interlink="1" href="/cpt-versuch/">CPT-Versuch</a> zu ergänzen, der ein kontinuierliches Profil des Spitzendrucks und der Porenwasserdruckentwicklung liefert.</p></details>
-            </section>
-
-            <section>
-                <h2>Abdeckung in Hildesheim</h2>
-                <link rel="stylesheet" href="/css/leaflet.css"/>
-                <div id="mapa-ciudad"></div>
-                <script src="/js/leaflet.js"></script>
-                <script>
-                    var map = L.map('mapa-ciudad').setView([52.1527188,9.9518083], 12);
-                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
-                    L.circle([52.1527188,9.9518083],{radius:3000,color:'#171717',fillColor:'#404040',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Hildesheim');
-                </script>
-            </section>
-        </main>
-    </div>
-</div>
-
-<footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technische Updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">E-Mail-Updates erhalten</p><form action="mailto:kontakt@geotechnik.sbs" method="post" enctype="text/plain" style="display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap"><input type="email" name="email" placeholder="Ihre E-Mail" style="padding:.7rem 1rem;border-radius:6px;border:none;font-size:.95rem;min-width:220px"><button type="submit" style="background:#404040;color:#FFF;padding:.7rem 1.4rem;border:none;border-radius:6px;font-weight:700;cursor:pointer">Abonnieren</button></form><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Hildesheim, Germany · <a href="mailto:kontakt@geotechnik.sbs" style="color:rgba(255,255,255,.7)">kontakt@geotechnik.sbs</a> · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong> <a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-05-01</div></footer>
-
-<script>
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#831843"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*//* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+body>*{max-width:100vw}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.navbar .nav{gap:.55rem !important}</style>  <link rel="preload" as="image" href="/img/sondaje-spt-5.webp" fetchpriority="high">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;align-items:center;gap:10px;"><svg viewBox="0 0 64 64" width="44" height="44" style="flex-shrink:0"><polygon points="32,4 60,24 50,58 14,58 4,24" fill="#171717"/></svg><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:24px;">Hildesheim</span></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Hildesheim, Germany</div></div><div class="header-contact"><a href="mailto:kontakt@geotechnik.sbs">kontakt@geotechnik.sbs</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Start</a></li><li>›</li><li>Erkundung</li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">SPT (Standard Penetration Test) in Hildesheim – Bodenaufschl…</li></ol></nav><h1>SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Start</a><div class="cat-item" data-cat="untersuchung"><div class="cat-row"><a data-interlink="1" href="/untersuchung/" class="cat-name">Erkundung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Erkundung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/schurfgruben/">Schürfgrube (Sondierbohrung)</a><a data-interlink="1" href="/spt-bohrung/">SPT (Standard Penetration Test)</a></div></div><div class="cat-item" data-cat="labor-in-situ"><div class="cat-row"><a data-interlink="1" href="/labor-in-situ/" class="cat-name">In-Situ-Prüfungen</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ-Prüfungen"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/in-situ-durchlassigkeit/">Felddurchlässigkeitsversuch (Lefranc/Lugeon)</a><a data-interlink="1" href="/plattendruckversuch/">Plattendruckversuch (PLT)</a></div></div><div class="cat-item" data-cat="labor"><div class="cat-row"><a data-interlink="1" href="/labor/" class="cat-name">Labor</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Labor"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/korngrossenanalyse/">Korngrößenanalyse (Siebung + Hydrometer)</a><a data-interlink="1" href="/triaxialversuch/">Triaxialversuch</a></div></div><div class="cat-item" data-cat="grundungen"><div class="cat-row"><a data-interlink="1" href="/grundungen/" class="cat-name">Fundamente</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Fundamente"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/pfahle/">Pfahlgründungsbemessung</a></div></div><div class="cat-item" data-cat="hange"><div class="cat-row"><a data-interlink="1" href="/hange/" class="cat-name">Hänge & Wände</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Hänge & Wände"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/anker/">Aktive/passive Verankerungsbemessung</a></div></div><div class="cat-item" data-cat="bodenverbesserung"><div class="cat-row"><a data-interlink="1" href="/bodenverbesserung/" class="cat-name">Bodenverbesserung</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Bodenverbesserung"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/ruttelverdichtung/">Bemessung der Rütteldruckverdichtung</a><a data-interlink="1" href="/injektionen/">Injektionsbemessung (Grouting)</a></div></div><div class="cat-item" data-cat="seismik"><div class="cat-row"><a data-interlink="1" href="/seismik/" class="cat-name">Seismik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/seismische-mikrozonierung/">Seismische Mikrozonierung</a></div></div><div class="cat-item" data-cat="strassenbau"><div class="cat-row"><a data-interlink="1" href="/strassenbau/" class="cat-name">Straßenbaugeotechnik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Straßenbaugeotechnik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/flexibler-belag/">Bemessung flexibler Fahrbahnen</a><a data-interlink="1" href="/starrer-belag/">Bemessung starrer Fahrbahnen</a></div></div><div class="cat-item" data-cat="geophysik"><div class="cat-row"><a data-interlink="1" href="/geophysik/" class="cat-name">Geophysik</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Geophysik"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/widerstand/">Elektrische Widerstandsmessung / VES (Vertikale Elektrische Sondierung)</a><a data-interlink="1" href="/masw/">MASW / VS30 (Scherwellengeschwindigkeit)</a><a data-interlink="1" href="/seismische-refraktion/">Seismische Tomographie (Refraktion/Reflexion)</a></div></div><div class="cat-item" data-cat="aushub"><div class="cat-row"><a data-interlink="1" href="/aushub/" class="cat-name">Untertagebau</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Untertagebau"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a data-interlink="1" href="/weichbodentunnel/">Geotechnische Analyse für Tunnel in weichem Boden</a><a data-interlink="1" href="/aushub-monitoring/">Geotechnische Baugrubenüberwachung</a></div></div></nav></aside><main><section><p>Hildesheims Baugrund ist geprägt von der innerstädtischen Beckenlage und den Ausläufern der Giesener Berge. Wer hier baut, steht oft auf inhomogenen quartären Sedimenten – mal tragfähiger Kies, mal weiche Auelehmbänder, die erst in fünf oder acht Metern Tiefe auslaufen. Der SPT (Standard Penetration Test) liefert in dieser geologischen Situation verlässliche Kennwerte zur Lagerungsdichte und Konsistenz, und zwar direkt am Bohrpunkt. Unser Labor setzt das Verfahren nach DIN EN ISO 22476-3 ein und kombiniert die Schlagzahlen mit einer genauen Schichtenaufnahme. Gerade im Altstadtbereich von Hildesheim, wo Aufschlüsse oft beengt sind, arbeiten wir mit kompaktem Gerät, das wenig Platz braucht und trotzdem normgerechte SPT-Werte liefert. Vor Beginn der Bohrarbeiten klären wir die Baugrundhistorie – denn in der Dammstadt weiß man nie, ob unter der Grasnarbe nicht doch mittelalterliche Auffüllungen lagern.</p></section><blockquote style="border-left:4px solid #171717;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">Ein SPT in Hildesheim zeigt oft schon ab 2,5 m Tiefe, ob eine Flachgründung reicht oder eine Pfahllösung nötig wird.</blockquote><section><h2>Leistungsmerkmale in Hildesheim</h2><div>Mit knapp 102.000 Einwohnern und einer mittleren Geländehöhe von 78 m ü. NHN liegt Hildesheim in einer geologisch reizvollen Übergangszone. Der SPT bringt hier Klarheit, wenn Rammkernsondierungen an ihre Grenzen stoßen und ein <a href="/triaxialversuch/">CPT-Versuch</a> wegen grobkörniger Schichten nicht eindringen kann. Wir messen die Schlagzahl N₃₀ je 30 cm Eindringung und leiten daraus die bezogene Lagerungsdichte sowie den Spitzenwiderstand ab. In tonigen Lagen ergänzen wir die SPT-Daten oft mit den <a href="/atterberg-grenzen/">Atterberg-Grenzen</a>, um Plastizität und Wasserempfindlichkeit des Bodens zu bewerten. Bei rolligen Böden mit hohem Grobanteil unterhalb der Innerste-Terrassen nutzen wir zusätzlich die <a href="/korngrossenanalyse/">Korngrößenanalyse</a> zur genauen Klassifikation. Jeder SPT wird mit mindestens drei Entnahmetiefen pro Aufschlusspunkt gefahren, sodass ein belastbares Profil entsteht – kein Einzelwert, sondern ein Tiefenverlauf. Die Protokolle gehen noch am selben Tag ins Labor, werden mit der Schichtenkarte abgeglichen und in den geotechnischen Bericht übernommen.</div></section><figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/sondaje-spt-5.webp" alt="SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3" width="600" height="300" loading="eager" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px" fetchpriority="high"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">SPT (Standard Penetration Test) in Hildesheim – Bodenaufschluss nach DIN EN ISO 22476-3</figcaption></figure><div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #171717;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#171717;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typischer Wert</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Normgrundlage</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">DIN EN ISO 22476-3:2012</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Rammenergie</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">473 J (Freifallhammer 63,5 kg, Fallhöhe 760 mm)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Gestänge</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">AW-J oder BW-J, je nach Bohrdurchmesser</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Protokollierte Kennwerte</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">N₃₀, N₁₆₀, Lagerungsdichte I_D, Konsistenz I_C</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Bohrlochstützung</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Verrohrung oder Stützflüssigkeit nach Bedarf</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Mindestabstand Sondierpunkte</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">15 m (Rasterverdichtung bei Auffälligkeiten)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Dokumentation</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Schichtenverzeichnis, Rammdiagramm, Fotodoku Bohrkerne</td></tr></tbody></table></div><section><h2>Kritische Bodenfaktoren in Hildesheim</h2><p>In Hildesheim dominiert die Innerste-Niederung mit holozänen Auelehmen und darunter anstehenden Kreidemergeln. Die Tiefe der quartären Deckschichten schwankt kleinräumig stark, was bei zu wenigen SPT-Punkten zu gefährlichen Fehleinschätzungen führt. Ein Bauherr, der nur am Rand des Grundstücks sondiert, übersieht leicht eine mittig liegende Torflinie – die setzungsempfindlich ist und bei Belastung ungleichmäßig nachgibt. Auch die Grundwassernähe ist ein Thema: In Bachnähe steht das Wasser oft nur 1,3 bis 1,8 m unter Gelände. Fehlt dann eine zuverlässige SPT-Bewertung der Steifigkeit unter Auftrieb, kann die Gründung abrutschen oder kippen. Unser Team legt daher mindestens zwei SPT pro Baukörper an, staffelt die Tiefen und prüft die Konsistenz direkt im Feld mit dem Taschenpenetrometer als Plausibilisierung. Bei Hinweisen auf setzungsfähige Weichschichten schalten wir eine <a data-interlink="1" href="/ruttelverdichtung/">Rüttelverdichtung</a> als Bodenverbesserung vor – eine Entscheidung, die auf soliden Schlagzahlen beruhen muss, nicht auf Vermutungen.</p></section><section class="block mid-cta-d69a" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Benötigen Sie eine geotechnische Bewertung?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Antwort innerhalb von 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:kontakt@geotechnik.sbs" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">E-Mail: kontakt@geotechnik.sbs</a></div></div></section><div class="normas"><strong>Anwendbare Normen:</strong> DIN EN ISO 22476-3:2012 – Geotechnische Erkundung und Untersuchung – Felduntersuchungen – Teil 3: Standard Penetration Test, DIN 4020 – Geotechnische Untersuchungen für bautechnische Zwecke, DIN EN 1997-2:2010 – Eurocode 7: Entwurf, Berechnung und Bemessung in der Geotechnik – Teil 2: Erkundung und Untersuchung des Baugrunds </div><section><h2>Unsere Leistungen</h2><p>Unser SPT-Angebot in Hildesheim ist konsequent auf die lokalen Baugrundfragen zugeschnitten – von der ersten Rammung bis zum auswertefertigen Bericht.</p><style>/*afx*/.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#171717;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}
+.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}
+.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}
+.servicios-grid a.servicio-link:hover{border-color:#171717;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}
+.servicios-grid a.servicio-link:hover h3{color:#171717}
+.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}
+.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><div class="servicios-grid"><div class="servicio"><h3>SPT-Haupterkundung mit Protokoll</h3><p>Normgerechte SPT-Bohrung nach DIN EN ISO 22476-3 inklusive Rammdiagramm, Schlagzahlkurve und Einordnung der Lagerungsdichte je Tiefenstufe. Wir liefern die Kennwerte, die der Tragwerksplaner für Setzungsberechnung und Grundbruchnachweis braucht.</p></div><div class="servicio"><h3>Kombipaket SPT + Laborversuche</h3><p>SPT-Feldversuch plus bodenmechanische Laboranalytik: Wassergehalt, Korndichte, Sieblinie und – bei feinkörnigen Proben – Zustandsgrenzen. So entsteht ein vollständiges Baugrundmodell aus einer Hand, das Statiker und Prüfingenieur überzeugt.</p></div></div></section><section><h2>Häufig gestellte Fragen</h2><details><summary>Was kostet ein SPT in Hildesheim?</summary><p>Ein einzelner SPT nach Norm liegt in Hildesheim preislich zwischen €530 und €680 netto, abhängig von Bohrtiefe, Gestängetyp und Rüstaufwand. Bei mehreren Sondierpunkten auf einem Grundstück reduziert sich der Einheitspreis durch die einmalige Mobilisierung des Bohrgeräts.</p></details><details><summary>Ab welcher Bohrtiefe ist der SPT in Hildesheim sinnvoll?</summary><p>Der SPT eignet sich ab etwa 1,5 m unter GOK und wird meist bis in 8–12 m Tiefe gefahren. In Hildesheim orientieren wir die Endtiefe an der Unterkante der quartären Lockersedimente – sobald der festere Kreidemergel ansteht, wechseln wir auf Kernbohrverfahren.</p></details><details><summary>Ersetzt der SPT ein komplettes Baugrundgutachten?</summary><p>Nein. Der SPT liefert die mechanischen Kennwerte des Bodens, aber erst die Zusammenschau mit Schichtenverzeichnis, Laborwerten und geotechnischem Bericht ergibt das vollständige Gutachten nach DIN 4020. Unser Labor stellt diese Leistungen aus einer Hand bereit.</p></details><details><summary>Ist der SPT in Hildesheim auch bei beengten Grundstücken durchführbar?</summary><p>Ja. Wir setzen in der Hildesheimer Innenstadt kompakte Raupengeräte mit geringer Bodenpressung ein, die durch enge Tordurchfahrten passen. Der SPT-Hammer arbeitet dabei mit einem kurzen Mast, sodass wir auch unter niedrigen Vordächern oder in Hinterhöfen normgerecht rammen können.</p></details></section><section><h2>Abdeckung in Hildesheim</h2><link rel="stylesheet" href="/css/leaflet-972b.css"/><div id="mapa-ciudad"></div><script src="/js/leaflet-972b.js"></script><script>
+var map = L.map('mapa-ciudad').setView([52.1527188,9.9518083], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
+L.circle([52.1527188,9.9518083],{radius:3000,color:'#171717',fillColor:'#404040',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Hildesheim');
+</script></section></main></div></div><footer style="background:#0A0A0A;color:rgba(255,255,255,.85);padding:3rem 1.5rem 1.5rem"><div style="max-width:720px;margin:0 auto;text-align:center"><h4 style="color:#FFF;font-size:1.15rem;margin:0 0 .3rem">Technische Updates</h4><p style="margin:0 0 1.2rem;color:rgba(255,255,255,.65);font-size:.95rem">E-Mail-Updates erhalten</p><a href="mailto:kontakt@geotechnik.sbs" style="display:inline-block;background:#404040;color:#FFF;padding:.75rem 1.7rem;border-radius:6px;text-decoration:none;font-weight:700;font-size:.95rem">Abonnieren — kontakt@geotechnik.sbs</a><p style="margin:1.5rem 0 0;font-size:.82rem;color:rgba(255,255,255,.5)">Hildesheim, Germany · © 2026</p></div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>Referenzen:</strong><a href="https://www.din.de/" rel="nofollow noopener" target="_blank">DIN Normen</a> · <a href="https://eurocodes.jrc.ec.europa.eu/showpage.php?id=132" rel="nofollow noopener" target="_blank">Eurocode 7</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnik</a></div><div class="updated-info" data-updated="2026-03-27" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Zuletzt aktualisiert: 2026-03-27</div></footer><script>
 // Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
 document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest('.cat-item');
-    if (!item) return;
-    var sub = item.querySelector('.cat-sub');
-    if (!sub) return;
-    var open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
-    if (open) {
-        sub.setAttribute('hidden', '');
-    } else {
-        sub.removeAttribute('hidden');
-    }
+var btn = e.target.closest('.cat-toggle');
+if (!btn) return;
+e.preventDefault();
+var item = btn.closest('.cat-item');
+if (!item) return;
+var sub = item.querySelector('.cat-sub');
+if (!sub) return;
+var open = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+if (open) {
+sub.setAttribute('hidden', '');
+} else {
+sub.removeAttribute('hidden');
+}
 });
-</script>
-</body>
-</html>
+</script></body></html>
